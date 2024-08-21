@@ -1,0 +1,1 @@
+Following the [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) guide by Peter Shirley, Trevor David Black, Steve Hollasch.

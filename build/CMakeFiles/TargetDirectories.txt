@@ -1,0 +1,3 @@
+/Users/evekazarian/Desktop/rayTracing/build/CMakeFiles/rayTrace.dir
+/Users/evekazarian/Desktop/rayTracing/build/CMakeFiles/edit_cache.dir
+/Users/evekazarian/Desktop/rayTracing/build/CMakeFiles/rebuild_cache.dir
