@@ -851,6 +851,7 @@ CMakeFiles/rayTrace.dir/src/main.cpp.o: /Users/evekazarian/Desktop/rayTracing/sr
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
+  /Users/evekazarian/Desktop/rayTracing/src/Camera.h \
   /Users/evekazarian/Desktop/rayTracing/src/Color.h \
   /Users/evekazarian/Desktop/rayTracing/src/Hittable.h \
   /Users/evekazarian/Desktop/rayTracing/src/HittableList.h \
@@ -868,6 +869,8 @@ CMakeFiles/rayTrace.dir/src/main.cpp.o: /Users/evekazarian/Desktop/rayTracing/sr
 /Users/evekazarian/Desktop/rayTracing/src/HittableList.h:
 
 /Users/evekazarian/Desktop/rayTracing/src/Hittable.h:
+
+/Users/evekazarian/Desktop/rayTracing/src/Camera.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h:
 

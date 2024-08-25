@@ -55,8 +55,18 @@ public:
      * 
      * @return `true` if the ray intersects with any object in the list, `false` otherwise.
      */
-    bool hit(const Ray& ray, Interval interval, HitRecord& rec) const override {
-        // Stub: Implementation of hit logic for checking intersections with all objects in the list.
-        return false;
+    bool hit(const Ray& ray, Interval rayT, HitRecord& record) const override {
+        HitRecord tempRecord;
+        bool hitAnything = false;
+        auto closestSoFar = rayT.max;
+
+        for (const auto& object: objects) {
+            if (object->hit(ray, Interval(rayT.min, closestSoFar), tempRecord)) {
+                hitAnything = true;
+                closestSoFar = tempRecord.t;
+                record = tempRecord;
+            }
+        }
+        return hitAnything;
     }
 };

@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Interval.h"
 #include "Vec3.h"
 #include <iostream>
 
@@ -20,9 +21,10 @@ void write_color(std::ostream& out, const Color& pixel_color) {
     auto b = pixel_color.z();    
 
     // Translate the [0,1] component values to the byte range [0,255].
-    int rbyte = int(255.999 * r);
-    int gbyte = int(255.999 * g);
-    int bbyte = int(255.999 * b);
+    static const Interval colorInterval(0.000, 0.999);
+    int rbyte = int(256 * colorInterval.clamp(r));
+    int gbyte = int(256 * colorInterval.clamp(g));
+    int bbyte = int(256 * colorInterval.clamp(b));
 
     // Write out the pixel Color components.
     out << rbyte << ' ' << gbyte << ' ' << bbyte << '\n';

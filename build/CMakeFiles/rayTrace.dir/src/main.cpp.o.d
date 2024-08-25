@@ -825,9 +825,10 @@ CMakeFiles/rayTrace.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdarg \
   /Users/evekazarian/Desktop/rayTracing/src/Color.h \
+  /Users/evekazarian/Desktop/rayTracing/src/Interval.h \
   /Users/evekazarian/Desktop/rayTracing/src/Vec3.h \
   /Users/evekazarian/Desktop/rayTracing/src/Ray.h \
-  /Users/evekazarian/Desktop/rayTracing/src/Interval.h \
+  /Users/evekazarian/Desktop/rayTracing/src/Camera.h \
   /Users/evekazarian/Desktop/rayTracing/src/Hittable.h \
   /Users/evekazarian/Desktop/rayTracing/src/HittableList.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/vector \

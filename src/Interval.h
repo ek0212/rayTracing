@@ -55,6 +55,12 @@ public:
         return min < x && x < max;
     }
 
+    double clamp(double x) const {
+        if (x < min) return min;
+        if (x > max) return max;
+        return x;
+    }
+
     static const Interval empty;   ///< Represents an empty interval (no values).
     static const Interval universe; ///< Represents a universal interval (all possible values).
 };
